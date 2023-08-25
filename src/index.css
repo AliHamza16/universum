@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  min-height: 100dvh;
+}
+
+@media screen and (min-width: 1024px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 16px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(38, 38, 120, 0.693);
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+  }
+}
