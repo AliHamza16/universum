@@ -11,7 +11,7 @@ export default function Footer() {
         <a href="">
           <img className={styles.logo} src={facebook} alt="facebook" />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/universumdergi/">
           <img className={styles.logo} src={instagram} alt="instagram" />
         </a>
         <a href="">
