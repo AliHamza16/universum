@@ -18,7 +18,7 @@ export default function Footer() {
           <img className={styles.logo} src={twitter} alt="twitter" />
         </a>
       </div>
-      <span id={styles.copyright}>&copy; 2023 Liber Medya</span>
+      <span id={styles.copyright}>&copy; 2024 Liber Medya</span>
     </div>
   );
 }
